@@ -7,7 +7,7 @@ public class Student {
 	        student.hg = "컴퓨터공학과";
 	        student.hb = 20160001;
 
-	        System.out.println("학번: " + student.hb + ", 학과: " + student.hg);
-		
+	        System.out.println("학번: " + student.hb);
+	        System.out.println("학과: " + student.hg);
 	    }
 	}
