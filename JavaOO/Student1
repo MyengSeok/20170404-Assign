@@ -1,0 +1,13 @@
+public class Student {
+	  String hg;
+	    int hb;
+
+	    public static void main(String[] args) {
+	        Student student = new Student();
+	        student.hg = "컴퓨터공학과";
+	        student.hb = 20160001;
+
+	        System.out.println("학번: " + student.hb + ", 학과: " + student.hg);
+		
+	    }
+	}
