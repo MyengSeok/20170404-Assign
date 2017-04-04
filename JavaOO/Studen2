@@ -1,0 +1,30 @@
+public class Student {
+
+    private String hg;
+    private int hb;
+
+    public void sethg(String hg) {
+        this.hg = hg;
+    }
+
+    public void sethb(int hb) {
+        this.hb = hb;
+    }
+
+    public String gethg() {
+        return hg;
+    }
+
+    public int gethb() {
+        return hb;
+    }
+
+    public static void main(String[] args) {
+        Student student = new Student();
+        student.sethg("컴퓨터공학과");
+        student.sethb(20160001);
+
+        System.out.println("학번: " + student.gethb());
+        System.out.println("학과: " + student.gethg());
+        }
+}
