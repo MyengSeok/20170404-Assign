@@ -1,0 +1,94 @@
+public class Account {
+ private String owner;
+ private long balance;
+ public Account() {
+  super();
+ }
+ public Account(String owner) {
+  super();
+  this.owner = owner;
+ }
+ public Account(long balance) {
+  super();
+  this.balance = balance;
+ }
+ public Account(String owner, long balance) {
+  super();
+  this.owner = owner;
+  this.balance = balance;
+ }
+ public String getOwner() {
+  return owner;
+ }
+ public void setOwner(String owner) {
+  this.owner = owner;
+ }
+ public long getBalance() {
+  return balance;
+ }
+ public void setBalance(long balance) {
+  this.balance = balance;
+ }
+}
+public class Account {
+ private String owner;
+ private long balance;
+ public Account() {
+ }
+ public Account(String owner) {
+  this.owner = owner;
+ }
+ public Account(long balance) {
+  this.balance = balance;
+ }
+ public Account(String owner, long balance) {
+  this.owner = owner;
+  this.balance = balance;
+ }
+ public String getOwner() {
+  return owner;
+ }
+ public void setOwner(String owner) {
+  this.owner = owner;
+ }
+ public long getBalance() {
+  return balance;
+ }
+ public void setBalance(long balance) {
+  this.balance = balance;
+ }
+}
+/*public class Account {
+ private String owner;
+ private long balance;
+ public Account() {  super(); }
+ public Account(String owner) {  this.owner = owner; }
+ public Account(long balance) {  this.balance = balance; }
+ public Account(String owner, long balance) {
+  this.owner = owner;
+  this.balance = balance;
+ }
+ public String getOwner() {  return owner; }
+ public void setOwner(String owner) {  this.owner = owner; }
+ public long getBalance() {  return balance; }
+ public void setBalance(long balance) {  this.balance = balance; }
+ public long deposit(long amount) {
+  long bal = this.balance + amount;
+  this.balance = bal;
+  System.out.println(amount + "원 입금하였습니다.\n잔액 : " + (int) bal);
+  return bal;
+ }
+ public long withdraw(long amount) {
+  long bal = this.balance - amount;
+  System.out.println(amount + "원 출금하였습니다.\n잔액 : " + (int) bal);
+  this.balance = bal;
+  return bal;
+ }
+ public static void main(String[] args) {
+  Account A1 = new Account(1000000);
+  A1.withdraw(37000);
+  A1.deposit(83000);
+  A1.withdraw(500000);
+  System.out.println(A1.getBalance());
+ }
+}*/
